@@ -1859,3 +1859,19 @@ a.contact-card {
     scroll-behavior: auto;
   }
 }
+.nav-menu.open {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 70px;
+  right: 20px;
+  background: #111;
+  padding: 20px;
+  border-radius: 15px;
+  border: 1px solid rgba(255,255,255,0.1);
+}
+
+.reveal {
+  opacity: 1 !important;
+  transform: none !important;
+   }
